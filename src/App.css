@@ -17,7 +17,7 @@
     background: var(--neutral-white);
     padding: 2rem;
     border-radius: 20px;
-    /* border-bottom-right-radius: 999px; */
+    border-bottom-right-radius: 110px;
 }
 
 .main__div-input {
@@ -39,11 +39,55 @@
 }
 
 .main__div-input div input {
-    width: 96px;
+    width: 84px;
     height: 38px;
     border: 1px solid var(--neutral-light-grey);
     border-radius: 4px;
     font-weight: 800;
-    font-size: 20px;
-    padding: 1rem 0.6rem;
+    font-size: 18px;
+    padding: 1.4rem 0.6rem;
+    cursor: pointer;
+}
+
+.main__div-input div input:focus {
+    outline: none;
+    border: 1px solid var(--primary-purple);
+    caret-color: var(--primary-purple);
+}
+
+.main__div-break {
+    display: flex;
+    align-items: center;
+}
+  
+.main__div-break hr {
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid var(--neutral-light-grey);
+    width: 350px;
+}
+
+.main__div-break img {
+    background: var(--primary-purple);
+    width: 56px;
+    height: 56px;
+    border-radius: 999px;
+    padding: .8rem;
+    cursor: pointer;
+}
+
+.main__div-break img:active {
+    background: var(--neutral-off-black);
+}
+
+.main__div-info p {
+    font-size: 54px;
+    font-weight: 800;
+    font-style: italic;
+    line-height: 56px;
+}
+
+.main__div-info p span {
+    color: var(--primary-purple);
+    margin-right: 6px;
 }
