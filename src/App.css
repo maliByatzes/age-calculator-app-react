@@ -12,3 +12,38 @@
     height: 100vh;
     background: var(--neutral-light-grey);
 }
+
+.main__div {
+    background: var(--neutral-white);
+    padding: 2rem;
+    border-radius: 20px;
+    /* border-bottom-right-radius: 999px; */
+}
+
+.main__div-input {
+    display: flex;
+    gap: 1rem;
+}
+ .main__div-input div {
+    display: flex;
+    flex-direction: column;
+}
+
+.main__div-input div label {
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: var(--neutral-smokey-grey);
+    letter-spacing: 3px;
+    margin-bottom: 0.3rem;
+}
+
+.main__div-input div input {
+    width: 96px;
+    height: 38px;
+    border: 1px solid var(--neutral-light-grey);
+    border-radius: 4px;
+    font-weight: 800;
+    font-size: 20px;
+    padding: 1rem 0.6rem;
+}
